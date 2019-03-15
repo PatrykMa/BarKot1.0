@@ -23,7 +23,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         
         
         captureSession = AVCaptureSession()
-        labelW.text="jestem tutaj"
+        labelW.text="Jestem tutaj"
         
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else { return }
         let videoInput: AVCaptureDeviceInput
